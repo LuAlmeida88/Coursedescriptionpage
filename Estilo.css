@@ -1,0 +1,311 @@
+.single .curso-tecnico.hentry header, .single .curso-tecnico.hentry header {
+    border: none;
+    padding: 0;
+}
+
+.header-banner{
+position: relative;
+overflow: hidden;
+background:rgb(169, 90, 205);
+
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+}
+
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    color: #5c6b80;
+    background-color: #eaedf2;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+:root {
+    --wp-admin-theme-color: #007cba;
+    --wp-admin-theme-color-darker-10: #006ba1;
+    --wp-admin-theme-color-darker-20: #005a87;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+.header-banner:before {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    background-color: transparent;
+    background-image: -webkit-gradient(linear,left top,right bottom,from(black),to(transparent));
+    background-image: -webkit-linear-gradient(left,#000,transparent);
+    background-image: -moz-linear-gradient(right,#000,transparent);
+    background-image: -o-linear-gradient(right,#000,transparent);
+    background-image: linear-gradient(to right,#000,rgba(0,0,0,0));
+}
+
+element.style{
+    background-size: cover;
+}
+
+.header-np .banner{
+    height: 280px;
+    min-height: initial;
+}
+
+.header-banner .banner{
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.banner{
+    line-height: 0;
+}
+
+div{
+    display:block;
+}
+
+.header-banner .content {
+    position:absolute;
+    top:20px;
+    width:100%;
+    min-height: 200px;
+    padding: 20px;
+    color: #fff;
+
+
+}
+
+.wrap{
+    width: 94%;
+    margin: 0 auto;
+    
+}
+@media (max-width: 767px){
+    .m-all{
+        float: left;
+        width: 100%;
+        padding: 0;
+
+    }
+}
+#breadcrumbs{
+    margin: 0!important;
+    font-size: 11px;
+    text-transform: uppercase;
+    
+}
+.entry-content ul, .hentry ul, .tab-content ul {
+    margin-left: 20px;
+}
+ol, ul {
+    padding: 0;
+    list-style-type: none;
+}
+dl, menu, ol, ul {
+    margin: 1em 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#breadcrumbs li {
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+.entry-content ul li, .hentry ul li, .tab-content ul li {
+    list-style-type: disc;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ol, ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+#breadcrumbs .bread-link, #breadcrumbs .item-cat a {
+    color: #ed26d2;
+}
+a:link, a:visited:link {
+    -webkit-tap-highlight-color: rgba(0,0,0,.3);
+}
+a:link, a:visited:link {
+    outline: 0;
+}
+
+a, a:visited {
+    color: #ed26c2;
+    text-decoration: none;
+}
+a {
+    background: 0 0;
+}
+
+.entry-content ul li, .hentry ul li, .tab-content ul li {
+    list-style-type: disc;
+}
+
+#breadcrumbs .separator {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px 0 4px 5px;
+    border-color: transparent transparent transparent #fff;
+}
+
+#breadcrumbs li {
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.strong, b, strong {
+    font-weight: 700;
+}
+.header-np .single-title {
+    margin-top: 50px!important;
+    font-size: 30px;
+}
+.header-banner .single-title {
+    font-weight: 700;
+    margin-top:  5px;
+    margin-bottom: 20px;
+}
+
+.single-curso-tecnico.single-title, .single-curso-pos-graduacao .single-title {
+    margin-top: 20px!important;
+}
+
+.entry-title, .page-title, .single-title {
+    margin: 0;
+}
+
+.h1, .h2, .h3, .h4, .h5, h1, h2, h3, h4, h5 {
+    text-rendering: optimizelegibility;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.header-np .header-border{
+    border-top: 2px solid #fff;
+}
+.col-6{
+    flex:0 0 50%;
+    max-width: 50%;
+}
+
+.header-np .header-details {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.col-6{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.m-t-5{
+    margin-top: 75px!important;
+}
+
+@media only screen and (max-width: 992px){
+.tabs {
+    margin: 15px 0 0 0;
+}
+}
+
+/*Modalidade*/
+
+.m-t-3 {
+    margin-top: 45px!important;
+}
+
+.section-pagina-cursos {
+    font-size: .9em;
+}
+
+
+.section-pagina-cursos h3 b {
+    color: #ad0090;
+    
+}
+
+.card-modalidade{
+    background: rgb(169, 90, 205);
+    width: 300px;
+    height: 220px;
+    padding: 15px 0;
+    text-align: center;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+   
+}
+
+.card-modalidade:hover{
+    border-radius:50%;
+    background: burlywood;
+}
+
+.card-modalidade .fa{
+    margin-right: 20px;
+}
+
+
+
+/*
